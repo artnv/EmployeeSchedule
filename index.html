@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Employee Schedule</title>
+	<link href="main.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Narrow" rel="stylesheet">
+	<script type="text/javascript" src="employeeSchedule.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+<div id="main">
+
+<div id="userlist">
+	<h1>Расписание сотрудников</h1>
+	<header>Временной период: <input disabled type="date" id="date_min"> — <input disabled type="date" id="date_max"></header>
+	
+	<div id="table_box">
+		<div id="tbl_users">
+		<!--
+			<div class="tbl_row">
+				<div class="tbl_td">Сотрудник</div>
+				<div class="tbl_td">Ресторан</div>
+			</div>		
+			<div class="tbl_row">
+				<div class="tbl_td">Гоку Петр</div>
+				<div class="tbl_td">Ресторанчик</div>
+			</div>			
+			<div class="tbl_row">
+				<div class="tbl_td">Ким Анна</div>
+				<div class="tbl_td">Суши</div>
+			</div>	-->
+		</div><!--tbl_users-->
+		<div id="tbl_info">
+			<!--
+			<div class="horizontal">
+				<div class="h_date">25.10.2016</div>
+				<div class="h_hours">
+					<div>01</div><div>02</div><div>03</div><div>04</div><div>05</div><div>06</div><div>07</div><div>08</div><div>09</div><div>10</div><div>11</div><div>12</div><div>13</div><div>14</div><div>15</div><div>16</div><div>17</div><div>18</div><div>19</div><div>20</div><div>21</div><div>22</div><div>23</div><div>24</div>
+				</div>
+				
+				<div class="hours">
+					<div class="infobox">
+						<span class="info">Офицант</span>
+						
+						<span class="show">
+							<span class="status_info_h"><span class="pos">Администратор</span>4 часа</span>
+							<span class="plan mod_late">
+								<span class="fakt" style="width: 50%;"></span>
+							</span>
+							<span class="status_info"><span class="pos">5ч</span>План:</span>
+							<span class="status_info"><span class="pos">8м</span>Опоздание:</span>
+						</span>
+						
+					</div>
+					<div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+				</div>
+			</div>--><!--horizontal-->
+			
+		</div><!--tbl_info-->
+		<div class="clear"></div>
+	</div>
+	
+	<div id="hints">
+		<div id="h_container">
+			<div class="color" id="t1"><span class="tag">Метки:</span></div><div>План</div>
+			<div class="color" id="t2"></div><div>Факт</div>
+			<div class="color" id="t3"><span class="tag">Статусы:</span></div><div>Не явился</div>
+			<div class="color" id="t4"></div><div>Опоздал</div>
+			<div class="color" id="t5"></div><div>Ушел раньше</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+
+
+
+</div><!--/main-->
+</body>
+</html>
