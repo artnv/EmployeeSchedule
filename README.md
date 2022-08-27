@@ -1,4 +1,5 @@
 # EmployeeSchedule
+!['скриншот'](demo.png?raw=true)
 
 **EmployeeSchedule** - Расписание сотрудников, название говорит само за себя.
 
